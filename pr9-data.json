@@ -1,0 +1,422 @@
+{
+  "section": "PR9",
+  "title": "Rational Inequalities",
+  "learningObjective": "Solve rational inequalities and express the solution graphically and using interval notation.",
+  "faqs": [
+    {
+      "id": "faq-1",
+      "category": "conceptual",
+      "question": "What is a rational inequality, and how is it different from a rational equation?",
+      "answer": "A rational inequality compares a rational expression to 0 (or to something else) using \\( \\gt \\), \\( \\lt \\), \\( \\ge \\), or \\( \\le \\) instead of an equals sign — for example, \\( \\dfrac{3}{2x}\\gt 1 \\) or \\( \\dfrac{2x-3}{x-6}\\le x \\). A rational equation (PR6) asks for the exact x-values that make two sides equal; a rational inequality asks for every x-value that makes one side bigger, smaller, or equal — usually a whole interval, or several, rather than one or two exact points.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">\\( \\dfrac{x-1}{x+3}=0 \\) is an equation with one solution, \\( x=1 \\). \\( \\dfrac{x-1}{x+3}\\ge 0 \\) is an inequality whose full solution is \\( (-\\infty,-3)\\cup[1,\\infty) \\) — infinitely many values, including some (like \\( x=-4 \\)) that aren't anywhere near the equation's single solution.</p></div>"
+    },
+    {
+      "id": "faq-2",
+      "category": "conceptual",
+      "question": "Why do critical points for a rational inequality come from BOTH the numerator and the denominator?",
+      "answer": "A rational expression's sign can only change at a place where it's either zero or undefined — anywhere else, it can't jump from positive to negative without passing through one of those two kinds of points first. A numerator zero (PR8's familiar kind of critical point) gives a value where the expression actually equals 0; a denominator zero (PR7's kind) gives a value where the expression is undefined and may jump between \\( +\\infty \\) and \\( -\\infty \\). Both are places the sign can flip, so both must be marked.<div class=\"graph-wrap\"><svg viewBox=\"0 0 648 356\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><text x=\"70.0\" y=\"30.0\" font-size=\"16\" fill=\"#0a3f52\" font-weight=\"700\" text-anchor=\"start\" >(x−1)/(x+3) ≥ 0</text><line x1=\"80.0\" y1=\"200.0\" x2=\"608.0\" y2=\"200.0\" stroke=\"#94a3b8\" stroke-width=\"2\" /><line x1=\"80.0\" y1=\"195.0\" x2=\"80.0\" y2=\"205.0\" stroke=\"#94a3b8\" stroke-width=\"1.4\" /><line x1=\"124.0\" y1=\"195.0\" x2=\"124.0\" y2=\"205.0\" stroke=\"#94a3b8\" stroke-width=\"1.4\" /><line x1=\"168.0\" y1=\"195.0\" x2=\"168.0\" y2=\"205.0\" stroke=\"#94a3b8\" stroke-width=\"1.4\" /><line x1=\"212.0\" y1=\"195.0\" x2=\"212.0\" y2=\"205.0\" stroke=\"#94a3b8\" stroke-width=\"1.4\" /><line x1=\"256.0\" y1=\"195.0\" x2=\"256.0\" y2=\"205.0\" stroke=\"#94a3b8\" stroke-width=\"1.4\" /><line x1=\"300.0\" y1=\"195.0\" x2=\"300.0\" y2=\"205.0\" stroke=\"#94a3b8\" stroke-width=\"1.4\" /><line x1=\"344.0\" y1=\"195.0\" x2=\"344.0\" y2=\"205.0\" stroke=\"#94a3b8\" stroke-width=\"1.4\" /><line x1=\"388.0\" y1=\"195.0\" x2=\"388.0\" y2=\"205.0\" stroke=\"#94a3b8\" stroke-width=\"1.4\" /><line x1=\"432.0\" y1=\"195.0\" x2=\"432.0\" y2=\"205.0\" stroke=\"#94a3b8\" stroke-width=\"1.4\" /><line x1=\"476.0\" y1=\"195.0\" x2=\"476.0\" y2=\"205.0\" stroke=\"#94a3b8\" stroke-width=\"1.4\" /><line x1=\"520.0\" y1=\"195.0\" x2=\"520.0\" y2=\"205.0\" stroke=\"#94a3b8\" stroke-width=\"1.4\" /><line x1=\"564.0\" y1=\"195.0\" x2=\"564.0\" y2=\"205.0\" stroke=\"#94a3b8\" stroke-width=\"1.4\" /><line x1=\"608.0\" y1=\"195.0\" x2=\"608.0\" y2=\"205.0\" stroke=\"#94a3b8\" stroke-width=\"1.4\" /><circle cx=\"388.0\" cy=\"200.0\" r=\"7\" fill=\"#1a6b6b\"/><text x=\"388.0\" y=\"222.0\" font-size=\"13.5\" fill=\"#0a3f52\" font-weight=\"700\" text-anchor=\"middle\" >1</text><circle cx=\"212.0\" cy=\"200\" r=\"7\" fill=\"white\" stroke=\"#D4622A\" stroke-width=\"2.6\"/><text x=\"212.0\" y=\"222.0\" font-size=\"13.5\" fill=\"#0a3f52\" font-weight=\"700\" text-anchor=\"middle\" >−3</text><line x1=\"388.0\" y1=\"80.0\" x2=\"388.0\" y2=\"240.0\" stroke=\"#94a3b8\" stroke-width=\"1.2\" stroke-dasharray=\"3,3\" /><line x1=\"212.0\" y1=\"80.0\" x2=\"212.0\" y2=\"240.0\" stroke=\"#94a3b8\" stroke-width=\"1.2\" stroke-dasharray=\"3,3\" /><circle cx=\"124.0\" cy=\"200.0\" r=\"4.5\" fill=\"#4a4a5a\"/><text x=\"124.0\" y=\"104.0\" font-size=\"22\" fill=\"#D4622A\" font-weight=\"700\" text-anchor=\"middle\" >−</text><text x=\"124.0\" y=\"132.0\" font-size=\"11\" fill=\"#4a4a5a\" font-weight=\"600\" text-anchor=\"middle\" >test −5:</text><text x=\"124.0\" y=\"147.0\" font-size=\"11\" fill=\"#4a4a5a\" font-weight=\"600\" text-anchor=\"middle\" >(−5−1)/(−5+3)</text><text x=\"124.0\" y=\"162.0\" font-size=\"11\" fill=\"#4a4a5a\" font-weight=\"600\" text-anchor=\"middle\" >= 3</text><circle cx=\"344.0\" cy=\"200.0\" r=\"4.5\" fill=\"#4a4a5a\"/><text x=\"344.0\" y=\"104.0\" font-size=\"22\" fill=\"#1a6b6b\" font-weight=\"700\" text-anchor=\"middle\" >+</text><text x=\"344.0\" y=\"132.0\" font-size=\"11\" fill=\"#4a4a5a\" font-weight=\"600\" text-anchor=\"middle\" >test 0:</text><text x=\"344.0\" y=\"147.0\" font-size=\"11\" fill=\"#4a4a5a\" font-weight=\"600\" text-anchor=\"middle\" >(0−1)/(0+3)</text><text x=\"344.0\" y=\"162.0\" font-size=\"11\" fill=\"#4a4a5a\" font-weight=\"600\" text-anchor=\"middle\" >= −⅓</text><circle cx=\"476.0\" cy=\"200.0\" r=\"4.5\" fill=\"#4a4a5a\"/><text x=\"476.0\" y=\"104.0\" font-size=\"22\" fill=\"#1a6b6b\" font-weight=\"700\" text-anchor=\"middle\" >+</text><text x=\"476.0\" y=\"132.0\" font-size=\"11\" fill=\"#4a4a5a\" font-weight=\"600\" text-anchor=\"middle\" >test 3:</text><text x=\"476.0\" y=\"147.0\" font-size=\"11\" fill=\"#4a4a5a\" font-weight=\"600\" text-anchor=\"middle\" >(3−1)/(3+3)</text><text x=\"476.0\" y=\"162.0\" font-size=\"11\" fill=\"#4a4a5a\" font-weight=\"600\" text-anchor=\"middle\" >= ⅓</text><line x1=\"80.0\" y1=\"254.0\" x2=\"212.0\" y2=\"254.0\" stroke=\"#1a6b6b\" stroke-width=\"5\" /><line x1=\"388.0\" y1=\"254.0\" x2=\"608.0\" y2=\"254.0\" stroke=\"#1a6b6b\" stroke-width=\"5\" /><text x=\"70.0\" y=\"280.0\" font-size=\"14.5\" fill=\"#1a6b6b\" font-weight=\"700\" text-anchor=\"start\" >solution: (−∞, −3) ∪ [1, ∞)</text><text x=\"70.0\" y=\"310.0\" font-size=\"12.5\" fill=\"#D4622A\" font-weight=\"700\" text-anchor=\"start\" >−3 is OPEN — always excluded, because the denominator is 0 there.</text><text x=\"70.0\" y=\"332.0\" font-size=\"12.5\" fill=\"#1a6b6b\" font-weight=\"700\" text-anchor=\"start\" >1 is CLOSED — the inequality is ≥ (non-strict), and 1 only zeros the numerator.</text></svg></div><p class=\"graph-caption\">Two critical points, two different reasons for how they're marked. x=1 makes the NUMERATOR zero, so the usual strict/non-strict rule applies. x=−3 makes the DENOMINATOR zero — it's undefined there, so it's always excluded, no matter what the inequality symbol is.</p>"
+    },
+    {
+      "id": "faq-3",
+      "category": "conceptual",
+      "question": "Why is a critical point from the denominator always excluded, no matter what the inequality symbol is?",
+      "answer": "Because the expression is UNDEFINED there — not a specific number, and definitely not a number that is \\( \\ge 0 \\), \\( \\le 0 \\), or anything else. An inequality can only be true or false at a value where the expression actually produces a number; since there's no value to compare at a denominator zero, that point can never belong to the solution, regardless of whether the inequality is strict or not."
+    },
+    {
+      "id": "faq-4",
+      "category": "conceptual",
+      "question": "Why can't I just multiply both sides by the denominator to clear the fraction, like I did for rational equations?",
+      "answer": "Multiplying both sides of an inequality by a negative number flips the inequality symbol — but multiplying by a positive number doesn't. Since the denominator's sign depends on x, and you don't yet know what x is, you can't know in advance whether multiplying by it would flip the inequality or leave it alone. In a rational EQUATION this never mattered, because \\\"equals\\\" has no direction to flip.<div class=\"graph-wrap\"><svg viewBox=\"0 0 660 364\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><marker id=\"a4\" markerWidth=\"9\" markerHeight=\"9\" refX=\"7\" refY=\"4.5\" orient=\"auto\"><path d=\"M0,0 L9,4.5 L0,9 Z\" fill=\"#0a3f52\"/></marker><text x=\"10.0\" y=\"26.0\" font-size=\"16\" fill=\"#0a3f52\" font-weight=\"700\" text-anchor=\"start\" >(3x−10)/(x−4) > 2</text><text x=\"10.0\" y=\"50.0\" font-size=\"12.5\" fill=\"#4a4a5a\" font-weight=\"600\" text-anchor=\"start\" >To clear the fraction, you'd multiply both sides by (x−4) — but is it positive or negative?</text><rect x=\"10\" y=\"70\" width=\"290\" height=\"110\" rx=\"8\" fill=\"#e6f2f2\" stroke=\"#1a6b6b\" stroke-width=\"2.6\"/><text x=\"155.0\" y=\"94.0\" font-size=\"14\" fill=\"#1a6b6b\" font-weight=\"700\" text-anchor=\"middle\" >IF (x−4) > 0</text><text x=\"155.0\" y=\"116.0\" font-size=\"13\" fill=\"#0a3f52\" font-weight=\"700\" text-anchor=\"middle\" >(3x−10) > 2(x−4)</text><text x=\"155.0\" y=\"136.0\" font-size=\"11.5\" fill=\"#4a4a5a\" font-weight=\"600\" text-anchor=\"middle\" >inequality sign stays</text><text x=\"155.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#4a4a5a\" font-weight=\"600\" text-anchor=\"middle\" >the same way</text><rect x=\"320\" y=\"70\" width=\"290\" height=\"110\" rx=\"8\" fill=\"#fdf0e8\" stroke=\"#D4622A\" stroke-width=\"2.6\"/><text x=\"465.0\" y=\"94.0\" font-size=\"14\" fill=\"#D4622A\" font-weight=\"700\" text-anchor=\"middle\" >IF (x−4) &lt; 0</text><text x=\"465.0\" y=\"116.0\" font-size=\"13\" fill=\"#0a3f52\" font-weight=\"700\" text-anchor=\"middle\" >(3x−10) &lt; 2(x−4)</text><text x=\"465.0\" y=\"136.0\" font-size=\"11.5\" fill=\"#4a4a5a\" font-weight=\"600\" text-anchor=\"middle\" >inequality sign FLIPS</text><text x=\"465.0\" y=\"152.0\" font-size=\"11.5\" fill=\"#4a4a5a\" font-weight=\"600\" text-anchor=\"middle\" >(multiplying by a negative)</text><text x=\"310.0\" y=\"210.0\" font-size=\"13\" fill=\"#0a3f52\" font-weight=\"700\" text-anchor=\"middle\" >Since (x−4) can be either sign depending on x, there's no way</text><text x=\"310.0\" y=\"228.0\" font-size=\"13\" fill=\"#0a3f52\" font-weight=\"700\" text-anchor=\"middle\" >to know which version to use — so this approach is a dead end.</text><line x1=\"310.0\" y1=\"250.0\" x2=\"310.0\" y2=\"286.0\" stroke=\"#0a3f52\" stroke-width=\"2.4\" marker-end=\"url(#a4)\"/><rect x=\"60\" y=\"288\" width=\"500\" height=\"60\" rx=\"8\" fill=\"white\" stroke=\"#0a3f52\" stroke-width=\"2.8\"/><text x=\"310.0\" y=\"314.0\" font-size=\"14.5\" fill=\"#0a3f52\" font-weight=\"700\" text-anchor=\"middle\" >THE FIX: move everything to one side instead.</text><text x=\"310.0\" y=\"334.0\" font-size=\"12.5\" fill=\"#0a3f52\" font-weight=\"700\" text-anchor=\"middle\" >(3x−10)/(x−4) − 2 > 0  —  no multiplying by an unknown sign required.</text></svg></div><p class=\"graph-caption\">Unlike a rational EQUATION, you can't safely multiply a rational INEQUALITY by its denominator, because you don't know in advance whether that denominator is positive or negative — and multiplying by a negative flips the inequality. Moving everything to one side (faq-8) sidesteps the problem entirely.</p>"
+    },
+    {
+      "id": "faq-5",
+      "category": "sticking-points",
+      "question": "How do I find the critical points of a rational inequality?",
+      "answer": "Set the numerator equal to 0 and solve, then separately set the denominator equal to 0 and solve — every value from either step is a critical point.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">For \\( \\dfrac{x-1}{x+3} \\): numerator zero at \\( x=1 \\); denominator zero at \\( x=-3 \\). Critical points: \\( -3 \\) and \\( 1 \\).</p></div>"
+    },
+    {
+      "id": "faq-6",
+      "category": "sticking-points",
+      "question": "How do I decide whether each critical point is included or excluded in the final solution?",
+      "answer": "First ask which kind of critical point it is. If it came from the DENOMINATOR, it's always excluded (faq-3) — no exceptions. If it came from the NUMERATOR, apply the ordinary strict/non-strict rule from PR8: included for \\( \\ge \\) or \\( \\le \\), excluded for \\( \\gt \\) or \\( \\lt \\).<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">\\( \\dfrac{x-1}{x+3}\\ge 0 \\): \\( x=-3 \\) (denominator) is always excluded. \\( x=1 \\) (numerator) is included, since \\( \\ge \\) is non-strict.</p></div>"
+    },
+    {
+      "id": "faq-7",
+      "category": "sticking-points",
+      "question": "How do I build a sign chart for a rational inequality with more than two critical points?",
+      "answer": "The process doesn't change — just more regions to test. Mark every critical point on the number line (sorted in order), which splits it into one more region than the number of critical points, then test one value from each region in the ORIGINAL rational expression (substituting carefully into every x).<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">\\( \\dfrac{(x+3)(x+5)}{x+2}\\gt 0 \\) has three critical points: \\( -5, -3, -2 \\), splitting the line into four regions. Testing a value in each shows the expression is negative, positive, negative, positive (in that order from left to right) — so the TRUE solution is \\( (-5,-3)\\cup(-2,\\infty) \\), two separate intervals, not just one.</p></div>"
+    },
+    {
+      "id": "faq-8",
+      "category": "sticking-points",
+      "question": "How do I combine everything into a single fraction before finding critical points?",
+      "answer": "Move every term to one side (leaving 0 on the other), then combine what's left over a common denominator, exactly as in PR6 — except here you're simplifying into ONE fraction rather than clearing it away entirely, since the critical points come from whatever that single combined fraction looks like.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">\\( \\dfrac{3x-10}{x-4}\\gt 2 \\) becomes \\( \\dfrac{3x-10}{x-4}-2\\gt 0 \\), then combining over the common denominator \\( x-4 \\): \\( \\dfrac{3x-10-2(x-4)}{x-4}\\gt 0 \\), which simplifies to \\( \\dfrac{x-2}{x-4}\\gt 0 \\).</p></div>"
+    },
+    {
+      "id": "faq-9",
+      "category": "sticking-points",
+      "question": "How do I solve a rational inequality when there's more on one side than just a fraction (like > x, or ≥ a number)?",
+      "answer": "Treat it exactly like faq-8: move everything to one side and combine into a single fraction first. Only once you have one fraction compared to 0 do the critical-point and sign-chart steps apply.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">\\( \\dfrac{4x+3}{x+2}\\gt x \\) becomes \\( \\dfrac{4x+3}{x+2}-x\\gt 0 \\), which combines to \\( \\dfrac{-x^2+2x+3}{x+2}\\gt 0 \\). Factoring the numerator: critical points \\( x=-2,-1,3 \\), all excluded (the inequality is strict, and \\( -2 \\) is the denominator's zero). Testing each of the four regions gives the solution \\( (-\\infty,-2)\\cup(-1,3) \\).</p></div>"
+    },
+    {
+      "id": "faq-10",
+      "category": "sticking-points",
+      "question": "How do I write the final solution in interval notation once I have the sign chart?",
+      "answer": "Read the sign chart from left to right, and include every region whose sign matches what the inequality asks for, using the correct bracket or parenthesis at each critical point (faq-6), and joining separate pieces with a union symbol.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">\\( \\dfrac{x-1}{x+3}\\ge 0 \\): the sign chart reads positive, negative, positive from left to right (faq-2). We want only the POSITIVE regions, which are left of \\( -3 \\) and right of \\( 1 \\): \\( (-\\infty,-3)\\cup[1,\\infty) \\), using an open parenthesis at \\( -3 \\) (always excluded) and a closed bracket at \\( 1 \\) (included, non-strict).</p></div>"
+    },
+    {
+      "id": "faq-11",
+      "category": "connections",
+      "question": "How does this connect to PR6's rational equations?",
+      "answer": "The exact same expression that solves the rational EQUATION (numerator equals zero) is one of the two sources of critical points here. PR6 also taught you to find excluded values before solving — those excluded values are precisely this section's always-excluded denominator critical points (faq-3). An inequality asks a bigger question than an equation does, but it leans on exactly the same two calculations."
+    },
+    {
+      "id": "faq-12",
+      "category": "connections",
+      "question": "How does this connect to PR7's domain restrictions and vertical asymptotes?",
+      "answer": "A denominator critical point here is exactly a value excluded from the function's domain in PR7 — often the exact location of a vertical asymptote. That's precisely why it's always excluded from a rational inequality's solution: the function's graph doesn't even exist at a vertical asymptote, so it certainly can't satisfy any inequality there."
+    },
+    {
+      "id": "faq-13",
+      "category": "connections",
+      "question": "How does this connect to PR8's quadratic inequalities and sign charts?",
+      "answer": "The sign chart technique — mark critical points, test one value per region, read off the sign — is identical to PR8's method, unchanged. What's new here is simply where the critical points can come from (a denominator as well as a numerator, faq-2) and the one extra rule about always excluding a denominator's critical point (faq-3). If you're comfortable with PR8, this section is mostly about correctly locating all the critical points first."
+    },
+    {
+      "id": "faq-14",
+      "category": "connections",
+      "question": "Why do rational inequalities matter beyond this course?",
+      "answer": "Rational inequalities show up whenever a rate, ratio, or concentration needs to stay within — or outside of — some safe or acceptable range: a drug's concentration remaining above a therapeutic threshold, a signal-to-noise ratio staying above a usable level, or a cost-per-unit staying below a break-even point. The domain-restriction habit from this section (knowing a model can't apply at certain values) is exactly the kind of sanity check that keeps a real-world rational model from being misapplied where it was never valid in the first place."
+    }
+  ],
+  "videos": [
+    {
+      "id": "vid-1",
+      "title": "Solving Rational Inequalities",
+      "url": "https://youtu.be/pw11b8xIz-4",
+      "description": "A lesson on how to solve rational inequalities using critical points, a sign chart, and interval notation.",
+      "category": "solving",
+      "relatedFaqs": [
+        "faq-5",
+        "faq-6",
+        "faq-7"
+      ]
+    },
+    {
+      "id": "vid-2",
+      "title": "Ex 2: Solving Rational Inequalities",
+      "url": "https://youtu.be/LDWStdiWhlA",
+      "description": "A second worked example solving a rational inequality, with the solution verified graphically.",
+      "category": "solving",
+      "relatedFaqs": [
+        "faq-8",
+        "faq-10"
+      ]
+    }
+  ],
+  "apps": [
+    {
+      "id": "app-1",
+      "title": "Inequality Explorer",
+      "url": "https://inequalitynotation.netlify.app/",
+      "description": "An interactive tool for practicing inequality and interval notation — likely covers general inequality notation rather than the rational-inequality sign-chart method specifically, though this hasn't been independently verified.",
+      "relatedFaqs": [
+        "faq-6",
+        "faq-10"
+      ]
+    }
+  ],
+  "prompts": {
+    "guided": [
+      {
+        "id": "prompt-1",
+        "title": "Practice Finding Both Kinds of Critical Points",
+        "prompt": "Give me a rational inequality. Ask me to find the critical points from the numerator AND separately from the denominator, and to explain which kind each one is. Give me a few more examples, including one with a repeated or more complex factor."
+      },
+      {
+        "id": "prompt-2",
+        "title": "Practice Deciding What's Included",
+        "prompt": "Give me several rational inequalities with different inequality symbols (strict and non-strict). For each one, ask me to decide whether each critical point is included or excluded, and to explain WHY using the numerator/denominator distinction. Check my reasoning."
+      },
+      {
+        "id": "prompt-3",
+        "title": "Practice a Sign Chart with More Than Two Critical Points",
+        "prompt": "Give me a rational inequality whose numerator and denominator together produce three or more critical points. Walk me through building the full sign chart, testing a value in every region, and writing the complete solution in interval notation. Make sure I don't accidentally miss one of the regions."
+      },
+      {
+        "id": "prompt-4",
+        "title": "Practice Combining Into a Single Fraction First",
+        "prompt": "Give me a rational inequality that isn't already set up as one fraction compared to 0 (for example, something with a number or an x added on one side). Walk me through why I can't just multiply by the denominator to clear it, and then through moving everything to one side and combining into a single fraction before finding critical points."
+      },
+      {
+        "id": "prompt-5",
+        "title": "Connect This to PR6, PR7, and PR8",
+        "prompt": "I've learned rational equations in PR6, rational function graphs and domain restrictions in PR7, and quadratic inequalities with sign charts in PR8. Now I'm learning rational inequalities in PR9. Help me see exactly how this section combines ideas from all three: where do the critical points come from, why is a domain restriction always excluded, and what from PR8's method stays exactly the same?"
+      }
+    ],
+    "open": [
+      {
+        "id": "open-1",
+        "title": "Create Your Own",
+        "prompt": "Use the AI tool of your choice. Start by describing what you're confused about or curious about from Section PR9 (Rational Inequalities). Ask the AI to help you explore that idea. Share what you learned and what surprised you."
+      }
+    ]
+  },
+  "paths": [
+    {
+      "id": "PR9",
+      "label": "PR9: Rational Inequalities",
+      "sectionLabel": "PR9, Rational Inequalities",
+      "intro": "Builds to the PR9 check: solve a rational inequality and give the answer in interval notation and on a number line.",
+      "graphs": {
+        "NLG2": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 440 80\" width=\"440\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Number line for (-infinity, -3] union [1, infinity): closed circles at -3 and 1, shaded outward.\"><line class=\"g-axis\" x1=\"20.0\" y1=\"40.0\" x2=\"420.0\" y2=\"40.0\" /><polygon class=\"g-arrowhead\" points=\"420.0,40.0 412.0,35.0 412.0,45.0\"/><line x1=\"32.0\" y1=\"40.0\" x2=\"140.0\" y2=\"40.0\" stroke=\"#1d4ed8\" stroke-width=\"6\" stroke-linecap=\"butt\"/><polygon fill=\"#1d4ed8\" points=\"22.0,40.0 32.0,33.0 32.0,47.0\"/><line x1=\"300.0\" y1=\"40.0\" x2=\"408.0\" y2=\"40.0\" stroke=\"#1d4ed8\" stroke-width=\"6\" stroke-linecap=\"butt\"/><polygon fill=\"#1d4ed8\" points=\"418.0,40.0 408.0,33.0 408.0,47.0\"/><circle cx=\"140.0\" cy=\"40.0\" r=\"6\" fill=\"#1d4ed8\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text class=\"g-name\" x=\"140.0\" y=\"64.0\" text-anchor=\"middle\">−3</text><circle cx=\"300.0\" cy=\"40.0\" r=\"6\" fill=\"#1d4ed8\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text class=\"g-name\" x=\"300.0\" y=\"64.0\" text-anchor=\"middle\">1</text></svg></div>",
+        "SC2": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 440 130\" width=\"440\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Sign chart for (x-1)/(x+3): critical points -3 (denominator) and 1 (numerator); test x = -4: positive, x = 0: negative, x = 2: positive.\"><line class=\"g-axis\" x1=\"20.0\" y1=\"74.0\" x2=\"420.0\" y2=\"74.0\" /><polygon class=\"g-arrowhead\" points=\"420.0,74.0 412.0,69.0 412.0,79.0\"/><circle cx=\"153.3\" cy=\"74.0\" r=\"6\" fill=\"#fff\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text class=\"g-name\" x=\"153.3\" y=\"98.0\" text-anchor=\"middle\">−3</text><circle cx=\"286.7\" cy=\"74.0\" r=\"6\" fill=\"#fff\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text class=\"g-name\" x=\"286.7\" y=\"98.0\" text-anchor=\"middle\">1</text><text class=\"g-sign\" x=\"86.7\" y=\"60.0\" text-anchor=\"middle\">+</text><text class=\"g-sign\" x=\"220.0\" y=\"60.0\" text-anchor=\"middle\">−</text><text class=\"g-sign\" x=\"353.3\" y=\"60.0\" text-anchor=\"middle\">+</text><text class=\"g-name\" x=\"86.7\" y=\"32.0\" text-anchor=\"middle\">x = −4: +5</text><text class=\"g-name\" x=\"220.0\" y=\"32.0\" text-anchor=\"middle\">x = 0: −1/3</text><text class=\"g-name\" x=\"353.3\" y=\"32.0\" text-anchor=\"middle\">x = 2: +1/5</text></svg></div>",
+        "NL2": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 440 80\" width=\"440\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Number line for (-infinity, -3) union [1, infinity): open circle at -3 (denominator, never included), closed circle at 1, shaded outward.\"><line class=\"g-axis\" x1=\"20.0\" y1=\"40.0\" x2=\"420.0\" y2=\"40.0\" /><polygon class=\"g-arrowhead\" points=\"420.0,40.0 412.0,35.0 412.0,45.0\"/><line x1=\"32.0\" y1=\"40.0\" x2=\"140.0\" y2=\"40.0\" stroke=\"#1d4ed8\" stroke-width=\"6\" stroke-linecap=\"butt\"/><polygon fill=\"#1d4ed8\" points=\"22.0,40.0 32.0,33.0 32.0,47.0\"/><line x1=\"300.0\" y1=\"40.0\" x2=\"408.0\" y2=\"40.0\" stroke=\"#1d4ed8\" stroke-width=\"6\" stroke-linecap=\"butt\"/><polygon fill=\"#1d4ed8\" points=\"418.0,40.0 408.0,33.0 408.0,47.0\"/><circle cx=\"140.0\" cy=\"40.0\" r=\"6\" fill=\"#fff\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text class=\"g-name\" x=\"140.0\" y=\"64.0\" text-anchor=\"middle\">−3</text><circle cx=\"300.0\" cy=\"40.0\" r=\"6\" fill=\"#1d4ed8\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text class=\"g-name\" x=\"300.0\" y=\"64.0\" text-anchor=\"middle\">1</text></svg></div>",
+        "SC3": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 440 130\" width=\"440\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Sign chart for 6(x+1)/((x-4)(x+2)): critical points -2, -1, 4. Test x = -3: negative; x = -3/2: positive; x = 0: negative; x = 5: positive.\"><line class=\"g-axis\" x1=\"20.0\" y1=\"74.0\" x2=\"420.0\" y2=\"74.0\" /><polygon class=\"g-arrowhead\" points=\"420.0,74.0 412.0,69.0 412.0,79.0\"/><circle cx=\"162.9\" cy=\"74.0\" r=\"6\" fill=\"#fff\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text class=\"g-name\" x=\"162.9\" y=\"98.0\" text-anchor=\"middle\">−2</text><circle cx=\"191.4\" cy=\"74.0\" r=\"6\" fill=\"#fff\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text class=\"g-name\" x=\"191.4\" y=\"98.0\" text-anchor=\"middle\">−1</text><circle cx=\"334.3\" cy=\"74.0\" r=\"6\" fill=\"#fff\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text class=\"g-name\" x=\"334.3\" y=\"98.0\" text-anchor=\"middle\">4</text><text class=\"g-sign\" x=\"91.4\" y=\"60.0\" text-anchor=\"middle\">−</text><text class=\"g-sign\" x=\"177.1\" y=\"60.0\" text-anchor=\"middle\">+</text><text class=\"g-sign\" x=\"262.9\" y=\"60.0\" text-anchor=\"middle\">−</text><text class=\"g-sign\" x=\"377.1\" y=\"60.0\" text-anchor=\"middle\">+</text><text class=\"g-name\" x=\"91.4\" y=\"32.0\" text-anchor=\"middle\">x = −3</text><text class=\"g-name\" x=\"177.1\" y=\"32.0\" text-anchor=\"middle\">x = −3/2</text><text class=\"g-name\" x=\"262.9\" y=\"32.0\" text-anchor=\"middle\">x = 0</text><text class=\"g-name\" x=\"377.1\" y=\"32.0\" text-anchor=\"middle\">x = 5</text></svg></div>",
+        "NL3": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 440 80\" width=\"440\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Number line for (-infinity, -2) union [-1, 4): open circle at -2, closed circle at -1, open circle at 4; shaded left of -2 and between -1 and 4.\"><line class=\"g-axis\" x1=\"20.0\" y1=\"40.0\" x2=\"420.0\" y2=\"40.0\" /><polygon class=\"g-arrowhead\" points=\"420.0,40.0 412.0,35.0 412.0,45.0\"/><line x1=\"29.2\" y1=\"40.0\" x2=\"143.1\" y2=\"40.0\" stroke=\"#1d4ed8\" stroke-width=\"6\" stroke-linecap=\"butt\"/><polygon fill=\"#1d4ed8\" points=\"19.2,40.0 29.2,33.0 29.2,47.0\"/><line x1=\"173.8\" y1=\"40.0\" x2=\"327.7\" y2=\"40.0\" stroke=\"#1d4ed8\" stroke-width=\"6\" stroke-linecap=\"butt\"/><circle cx=\"143.1\" cy=\"40.0\" r=\"6\" fill=\"#fff\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text class=\"g-name\" x=\"143.1\" y=\"64.0\" text-anchor=\"middle\">−2</text><circle cx=\"173.8\" cy=\"40.0\" r=\"6\" fill=\"#1d4ed8\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text class=\"g-name\" x=\"173.8\" y=\"64.0\" text-anchor=\"middle\">−1</text><circle cx=\"327.7\" cy=\"40.0\" r=\"6\" fill=\"#fff\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text class=\"g-name\" x=\"327.7\" y=\"64.0\" text-anchor=\"middle\">4</text></svg></div>",
+        "SC4": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 440 130\" width=\"440\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Sign chart for (x-2)(x+5)/((x-4)(x-1)): critical points -5, 1, 2, 4. Test x = -6: positive; x = 0: negative; x = 3/2: positive; x = 3: negative; x = 5: positive.\"><line class=\"g-axis\" x1=\"20.0\" y1=\"74.0\" x2=\"420.0\" y2=\"74.0\" /><polygon class=\"g-arrowhead\" points=\"420.0,74.0 412.0,69.0 412.0,79.0\"/><circle cx=\"100.0\" cy=\"74.0\" r=\"6\" fill=\"#fff\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text class=\"g-name\" x=\"100.0\" y=\"98.0\" text-anchor=\"middle\">−5</text><circle cx=\"260.0\" cy=\"74.0\" r=\"6\" fill=\"#fff\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text class=\"g-name\" x=\"260.0\" y=\"98.0\" text-anchor=\"middle\">1</text><circle cx=\"286.7\" cy=\"74.0\" r=\"6\" fill=\"#fff\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text class=\"g-name\" x=\"286.7\" y=\"98.0\" text-anchor=\"middle\">2</text><circle cx=\"340.0\" cy=\"74.0\" r=\"6\" fill=\"#fff\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text class=\"g-name\" x=\"340.0\" y=\"98.0\" text-anchor=\"middle\">4</text><text class=\"g-sign\" x=\"60.0\" y=\"60.0\" text-anchor=\"middle\">+</text><text class=\"g-sign\" x=\"180.0\" y=\"60.0\" text-anchor=\"middle\">−</text><text class=\"g-sign\" x=\"273.3\" y=\"60.0\" text-anchor=\"middle\">+</text><text class=\"g-sign\" x=\"313.3\" y=\"60.0\" text-anchor=\"middle\">−</text><text class=\"g-sign\" x=\"388.0\" y=\"60.0\" text-anchor=\"middle\">+</text><text class=\"g-name\" x=\"60.0\" y=\"32.0\" text-anchor=\"middle\">x = −6</text><text class=\"g-name\" x=\"180.0\" y=\"32.0\" text-anchor=\"middle\">x = 0</text><text class=\"g-name\" x=\"273.3\" y=\"32.0\" text-anchor=\"middle\">3/2</text><text class=\"g-name\" x=\"313.3\" y=\"32.0\" text-anchor=\"middle\">x = 3</text><text class=\"g-name\" x=\"388.0\" y=\"32.0\" text-anchor=\"middle\">x = 5</text></svg></div>",
+        "NL4": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 440 80\" width=\"440\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Number line for (-infinity, -5] union (1, 2] union (4, infinity): closed at -5 and 2, open at 1 and 4.\"><line class=\"g-axis\" x1=\"20.0\" y1=\"40.0\" x2=\"420.0\" y2=\"40.0\" /><polygon class=\"g-arrowhead\" points=\"420.0,40.0 412.0,35.0 412.0,45.0\"/><line x1=\"28.0\" y1=\"40.0\" x2=\"100.0\" y2=\"40.0\" stroke=\"#1d4ed8\" stroke-width=\"6\" stroke-linecap=\"butt\"/><polygon fill=\"#1d4ed8\" points=\"18.0,40.0 28.0,33.0 28.0,47.0\"/><line x1=\"260.0\" y1=\"40.0\" x2=\"286.7\" y2=\"40.0\" stroke=\"#1d4ed8\" stroke-width=\"6\" stroke-linecap=\"butt\"/><line x1=\"340.0\" y1=\"40.0\" x2=\"412.0\" y2=\"40.0\" stroke=\"#1d4ed8\" stroke-width=\"6\" stroke-linecap=\"butt\"/><polygon fill=\"#1d4ed8\" points=\"422.0,40.0 412.0,33.0 412.0,47.0\"/><circle cx=\"100.0\" cy=\"40.0\" r=\"6\" fill=\"#1d4ed8\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text class=\"g-name\" x=\"100.0\" y=\"64.0\" text-anchor=\"middle\">−5</text><circle cx=\"260.0\" cy=\"40.0\" r=\"6\" fill=\"#fff\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text class=\"g-name\" x=\"260.0\" y=\"64.0\" text-anchor=\"middle\">1</text><circle cx=\"286.7\" cy=\"40.0\" r=\"6\" fill=\"#1d4ed8\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text class=\"g-name\" x=\"286.7\" y=\"64.0\" text-anchor=\"middle\">2</text><circle cx=\"340.0\" cy=\"40.0\" r=\"6\" fill=\"#fff\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text class=\"g-name\" x=\"340.0\" y=\"64.0\" text-anchor=\"middle\">4</text></svg></div>",
+        "NL4b": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 440 80\" width=\"440\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Number line for [-5, 1) union (4, 5]: closed at -5 and 5, open at 1 and 4.\"><line class=\"g-axis\" x1=\"20.0\" y1=\"40.0\" x2=\"420.0\" y2=\"40.0\" /><polygon class=\"g-arrowhead\" points=\"420.0,40.0 412.0,35.0 412.0,45.0\"/><line x1=\"100.0\" y1=\"40.0\" x2=\"260.0\" y2=\"40.0\" stroke=\"#1d4ed8\" stroke-width=\"6\" stroke-linecap=\"butt\"/><line x1=\"340.0\" y1=\"40.0\" x2=\"366.7\" y2=\"40.0\" stroke=\"#1d4ed8\" stroke-width=\"6\" stroke-linecap=\"butt\"/><circle cx=\"100.0\" cy=\"40.0\" r=\"6\" fill=\"#1d4ed8\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text class=\"g-name\" x=\"100.0\" y=\"64.0\" text-anchor=\"middle\">−5</text><circle cx=\"260.0\" cy=\"40.0\" r=\"6\" fill=\"#fff\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text class=\"g-name\" x=\"260.0\" y=\"64.0\" text-anchor=\"middle\">1</text><circle cx=\"340.0\" cy=\"40.0\" r=\"6\" fill=\"#fff\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text class=\"g-name\" x=\"340.0\" y=\"64.0\" text-anchor=\"middle\">4</text><circle cx=\"366.7\" cy=\"40.0\" r=\"6\" fill=\"#1d4ed8\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text class=\"g-name\" x=\"366.7\" y=\"64.0\" text-anchor=\"middle\">5</text></svg></div>",
+        "NLF": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 440 80\" width=\"440\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Number line for (-2, 1) union (4, 5): open circles at -2, 1, 4, 5.\"><line class=\"g-axis\" x1=\"20.0\" y1=\"40.0\" x2=\"420.0\" y2=\"40.0\" /><polygon class=\"g-arrowhead\" points=\"420.0,40.0 412.0,35.0 412.0,45.0\"/><line x1=\"120.0\" y1=\"40.0\" x2=\"220.0\" y2=\"40.0\" stroke=\"#1d4ed8\" stroke-width=\"6\" stroke-linecap=\"butt\"/><line x1=\"320.0\" y1=\"40.0\" x2=\"353.3\" y2=\"40.0\" stroke=\"#1d4ed8\" stroke-width=\"6\" stroke-linecap=\"butt\"/><circle cx=\"120.0\" cy=\"40.0\" r=\"6\" fill=\"#fff\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text class=\"g-name\" x=\"120.0\" y=\"64.0\" text-anchor=\"middle\">−2</text><circle cx=\"220.0\" cy=\"40.0\" r=\"6\" fill=\"#fff\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text class=\"g-name\" x=\"220.0\" y=\"64.0\" text-anchor=\"middle\">1</text><circle cx=\"320.0\" cy=\"40.0\" r=\"6\" fill=\"#fff\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text class=\"g-name\" x=\"320.0\" y=\"64.0\" text-anchor=\"middle\">4</text><circle cx=\"353.3\" cy=\"40.0\" r=\"6\" fill=\"#fff\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text class=\"g-name\" x=\"353.3\" y=\"64.0\" text-anchor=\"middle\">5</text></svg></div>",
+        "NLFb": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 440 80\" width=\"440\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Number line for (-3, -2) union (4, infinity): open circles at -3, -2, and 4.\"><line class=\"g-axis\" x1=\"20.0\" y1=\"40.0\" x2=\"420.0\" y2=\"40.0\" /><polygon class=\"g-arrowhead\" points=\"420.0,40.0 412.0,35.0 412.0,45.0\"/><line x1=\"112.3\" y1=\"40.0\" x2=\"143.1\" y2=\"40.0\" stroke=\"#1d4ed8\" stroke-width=\"6\" stroke-linecap=\"butt\"/><line x1=\"327.7\" y1=\"40.0\" x2=\"410.8\" y2=\"40.0\" stroke=\"#1d4ed8\" stroke-width=\"6\" stroke-linecap=\"butt\"/><polygon fill=\"#1d4ed8\" points=\"420.8,40.0 410.8,33.0 410.8,47.0\"/><circle cx=\"112.3\" cy=\"40.0\" r=\"6\" fill=\"#fff\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text class=\"g-name\" x=\"112.3\" y=\"64.0\" text-anchor=\"middle\">−3</text><circle cx=\"143.1\" cy=\"40.0\" r=\"6\" fill=\"#fff\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text class=\"g-name\" x=\"143.1\" y=\"64.0\" text-anchor=\"middle\">−2</text><circle cx=\"327.7\" cy=\"40.0\" r=\"6\" fill=\"#fff\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text class=\"g-name\" x=\"327.7\" y=\"64.0\" text-anchor=\"middle\">4</text></svg></div>",
+        "RULE": "<div class=\"table-wrap\"><table class=\"lookup\"><tr><th scope=\"col\">Critical point comes from</th><th scope=\"col\">\\( \\lt \\) or \\( \\gt \\)</th><th scope=\"col\">\\(\\le\\) or \\(\\ge\\)</th></tr><tr><td>the numerator (makes the fraction 0)</td><td>open ( )</td><td>closed [ ]</td></tr><tr><td>the denominator (makes it undefined)</td><td>open ( )</td><td><strong>open ( )</strong>, always</td></tr></table></div>",
+        "WHY": "<div class=\"table-wrap\"><table class=\"lookup\"><tr><th scope=\"col\">Test \\(x=-1\\) in \\(\\dfrac1x \\gt 1\\)</th><th scope=\"col\">After multiplying by \\(x\\): \\(1 \\gt x\\)</th></tr><tr><td>\\(\\dfrac{1}{-1}=-1\\), and \\(-1 \\gt 1\\) is false</td><td>\\(1 \\gt -1\\) is true</td></tr><tr><td>so \\(-1\\) is <strong>not</strong> a solution</td><td>so \\(-1\\) looks like a solution: wrong</td></tr></table></div>",
+        "S3": "<div class=\"table-wrap\"><table class=\"lookup steps\"><tr><th scope=\"col\">Step</th><th scope=\"col\">Work</th><th scope=\"col\">Tool</th></tr><tr><td>One side</td><td>\\(\\dfrac{x+1}{x-4}-\\dfrac{x+1}{x+2}\\le0\\)</td><td><span class=\"pr-badge pr-prod\">One side 0</span></td></tr><tr><td>Combine</td><td>LCD \\((x-4)(x+2)\\): \\(\\dfrac{(x+1)(x+2)-(x+1)(x-4)}{(x-4)(x+2)}=\\dfrac{6(x+1)}{(x-4)(x+2)}\\le0\\)</td><td><span class=\"pr-badge pr-pow\">Combine</span></td></tr><tr><td>Critical points</td><td>Top: \\(x=-1\\). Bottom: \\(x=4,\\ -2\\).</td><td><span class=\"pr-badge pr-quot\">Critical pts</span></td></tr><tr><td>Test</td><td>\\(x=-3\\): \\(-\\); \\(x=-\\tfrac32\\): \\(+\\); \\(x=0\\): \\(-\\); \\(x=5\\): \\(+\\)</td><td><span class=\"pr-badge pr-pow\">Test values</span></td></tr><tr><td>Pick</td><td>\\(\\le0\\): the negative regions. Include \\(-1\\) (top); never \\(-2\\) or \\(4\\) (bottom).</td><td><span class=\"pr-badge pr-prod\">Pick regions</span></td></tr><tr><td>Answer</td><td>\\((-\\infty,-2)\\cup[-1,4)\\)</td><td><span class=\"pr-badge pr-start\">Intervals</span></td></tr></table></div>",
+        "S4": "<div class=\"table-wrap\"><table class=\"lookup steps\"><tr><th scope=\"col\">Step</th><th scope=\"col\">Work</th><th scope=\"col\">Tool</th></tr><tr><td>One side</td><td>\\(\\dfrac{x+1}{x-1}+\\dfrac{6}{x-4}\\ge0\\)</td><td><span class=\"pr-badge pr-prod\">One side 0</span></td></tr><tr><td>Combine</td><td>\\(\\dfrac{(x+1)(x-4)+6(x-1)}{(x-1)(x-4)}=\\dfrac{x^2+3x-10}{(x-1)(x-4)}\\)</td><td><span class=\"pr-badge pr-pow\">Combine</span></td></tr><tr><td>Factor</td><td>\\(\\dfrac{(x-2)(x+5)}{(x-1)(x-4)}\\ge0\\)</td><td><span class=\"pr-badge pr-prod\">Factor</span></td></tr><tr><td>Critical points</td><td>Top: \\(2,\\ -5\\). Bottom: \\(1,\\ 4\\).</td><td><span class=\"pr-badge pr-quot\">Critical pts</span></td></tr><tr><td>Test</td><td>\\(x=-6:+\\quad x=0:-\\quad x=\\tfrac32:+\\quad x=3:-\\quad x=5:+\\)</td><td><span class=\"pr-badge pr-pow\">Test values</span></td></tr><tr><td>Pick</td><td>\\(\\ge0\\): positive regions; include \\(-5\\) and \\(2\\), never \\(1\\) or \\(4\\).</td><td><span class=\"pr-badge pr-prod\">Pick regions</span></td></tr><tr><td>Answer</td><td>\\((-\\infty,-5]\\cup(1,2]\\cup(4,\\infty)\\)</td><td><span class=\"pr-badge pr-start\">Intervals</span></td></tr></table></div>",
+        "SF": "<div class=\"table-wrap\"><table class=\"lookup steps\"><tr><th scope=\"col\">Step</th><th scope=\"col\">Work</th><th scope=\"col\">Tool</th></tr><tr><td>One side</td><td>\\(\\dfrac{3x+1}{x-1}-\\dfrac{2x-6}{x-4} \\lt 0\\)</td><td><span class=\"pr-badge pr-prod\">One side 0</span></td></tr><tr><td>Combine</td><td>\\(\\dfrac{(3x+1)(x-4)-(2x-6)(x-1)}{(x-1)(x-4)}=\\dfrac{x^2-3x-10}{(x-1)(x-4)}\\)</td><td><span class=\"pr-badge pr-pow\">Combine</span></td></tr><tr><td>Factor</td><td>\\(\\dfrac{(x-5)(x+2)}{(x-1)(x-4)} \\lt 0\\)</td><td><span class=\"pr-badge pr-prod\">Factor</span></td></tr><tr><td>Critical points</td><td>Top: \\(5,\\ -2\\). Bottom: \\(1,\\ 4\\).</td><td><span class=\"pr-badge pr-quot\">Critical pts</span></td></tr><tr><td>Test</td><td>\\(x=-3:+\\quad x=0:-\\quad x=2:+\\quad x=\\tfrac92:-\\quad x=6:+\\)</td><td><span class=\"pr-badge pr-pow\">Test values</span></td></tr><tr><td>Pick</td><td>\\( \\lt 0\\): negative regions, all endpoints open (strict).</td><td><span class=\"pr-badge pr-prod\">Pick regions</span></td></tr><tr><td>Answer</td><td>\\((-2,1)\\cup(4,5)\\)</td><td><span class=\"pr-badge pr-start\">Intervals</span></td></tr></table></div>"
+      },
+      "stages": [
+        {
+          "stage": "Get ready",
+          "desc": "Three quick reviews PR9 leans on: subtracting rational expressions (PR6), sign charts and interval notation (PR8), and where a fraction is undefined (PR7). Skip any you already have.",
+          "stops": [
+            {
+              "id": "pr9-g1",
+              "title": "Subtract rational expressions",
+              "target": "Rewrite each fraction over the LCD, subtract numerators (distribute the minus), and factor (PR6).",
+              "cold": "Write as one fraction: \\(\\dfrac{1}{x-4}-\\dfrac{3}{x+2}\\).",
+              "coldPlain": "Write as one fraction: 1/(x-4) - 3/(x+2).",
+              "coldA": "\\(\\dfrac{(x+2)-3(x-4)}{(x-4)(x+2)}=\\dfrac{-2x+14}{(x-4)(x+2)}=\\dfrac{-2(x-7)}{(x-4)(x+2)}\\)",
+              "solution": "LCD (x - 4)(x + 2). Numerator: (x + 2) - 3(x - 4) = x + 2 - 3x + 12 = -2x + 14 = -2(x - 7).",
+              "mistake": "Writing -3(x - 4) as -3x - 12.",
+              "again": "\\(\\dfrac{x+1}{x-4}-\\dfrac{x+1}{x+2}\\)",
+              "againA": "\\(\\dfrac{(x+1)(x+2)-(x+1)(x-4)}{(x-4)(x+2)}=\\dfrac{6(x+1)}{(x-4)(x+2)}\\)",
+              "reflect": "Why is distributing the minus sign the riskiest step?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                }
+              ]
+            },
+            {
+              "id": "pr9-g2",
+              "title": "Sign charts and interval notation (PR8)",
+              "target": "Critical points split the line; test each region; pick the regions you want; brackets only for included endpoints.",
+              "cold": "Solve \\((x-1)(x+3)\\ge0\\).",
+              "coldPlain": "Solve (x - 1)(x + 3) >= 0.",
+              "coldA": "\\((-\\infty,-3]\\cup[1,\\infty)\\)[[graph:NLG2]]",
+              "solution": "Critical points -3 and 1. Test -4: (+), 0: (-), 2: (+). Want >= 0: outer regions with endpoints.",
+              "mistake": "Using parentheses on -3 and 1 even though the inequality includes equality.",
+              "again": "Solve \\((x+2)(x-5) \\lt 0\\).",
+              "againA": "\\((-2,5)\\)",
+              "reflect": "What will change when a critical point comes from a denominator?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "Inequality Explorer app",
+                  "url": "https://inequalitynotation.netlify.app/"
+                }
+              ]
+            },
+            {
+              "id": "pr9-g3",
+              "title": "Where is a fraction undefined? (PR7)",
+              "target": "A rational expression is undefined where its denominator is 0; those x-values can never be in a solution.",
+              "cold": "Where is \\(\\dfrac{x+1}{(x-4)(x+2)}\\) undefined? Where is it zero?",
+              "coldPlain": "Where is (x+1)/((x-4)(x+2)) undefined? Where is it zero?",
+              "coldA": "Undefined at \\(x=4\\) and \\(x=-2\\). Zero at \\(x=-1\\).",
+              "solution": "Denominator zero at 4 and -2 (undefined). Numerator zero at -1, where the denominator is not zero, so the fraction equals 0 there.",
+              "mistake": "Mixing up which factor makes the fraction 0 and which makes it undefined.",
+              "again": "\\(\\dfrac{(x-2)(x+5)}{(x-1)(x-4)}\\)",
+              "againA": "Undefined at 1, 4. Zero at 2, \\(-5\\).",
+              "reflect": "Why can a fraction equal 0 only when its numerator is 0?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "stage": "Learn the skills",
+          "desc": "Why we compare to 0, critical points from top and bottom, combining fractions, the four-point CheckIt type, and fractions compared to numbers.",
+          "stops": [
+            {
+              "id": "pr9-t1",
+              "title": "Why not multiply both sides?",
+              "target": "You cannot clear the denominator of an inequality, because you do not know whether it is positive or negative (and multiplying by a negative flips the sign). Compare to 0 instead.",
+              "explain": "[[graph:WHY]]",
+              "cold": "Is \\(x=-1\\) a solution of \\(\\dfrac1x \\gt 1\\)? What goes wrong if you multiply both sides by \\(x\\)?",
+              "coldPlain": "Is x = -1 a solution of 1/x > 1? What goes wrong if you multiply both sides by x?",
+              "coldA": "No: \\(\\tfrac{1}{-1}=-1\\not \\gt 1\\). Multiplying by \\(x\\) gives \\(1 \\gt x\\), which wrongly includes \\(-1\\). The true solution is \\((0,1)\\).",
+              "solution": "At x = -1 the left side is -1, which is not greater than 1. Multiplying by x assumes x is positive; for negative x the inequality should flip. Solving 1/x - 1 > 0, (1 - x)/x > 0, gives (0, 1).",
+              "mistake": "Cross-multiplying as if it were an equation.",
+              "again": "Solve \\(\\dfrac{x+2}{x-5} \\lt 0\\) without multiplying.",
+              "againA": "Critical points \\(-2\\) (top), \\(5\\) (bottom); negative between: \\((-2,5)\\).",
+              "reflect": "In your own words, why does the PR6 method not work for inequalities?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                }
+              ]
+            },
+            {
+              "id": "pr9-t2",
+              "title": "Critical points from top and bottom",
+              "target": "For one fraction compared to 0, critical points come from the numerator and the denominator. Denominator points are never included.",
+              "explain": "[[graph:RULE]]",
+              "cold": "Solve \\(\\dfrac{x-1}{x+3}\\ge0\\).",
+              "coldPlain": "Solve (x - 1)/(x + 3) >= 0.",
+              "note": "Show the single fraction compared to 0, which critical points come from the top and which from the bottom, a test value in each region, and your endpoint choices.",
+              "graphNote": "There's a number line on the page. I'll describe mine.",
+              "coldA": "\\((-\\infty,-3)\\cup[1,\\infty)\\)[[graph:SC2]][[graph:NL2]]",
+              "solution": "Top zero at 1, bottom zero at -3. Test -4: 5 (+); 0: -1/3 (-); 2: 1/5 (+). Want >= 0: outer regions. Include 1 (top), exclude -3 (bottom).",
+              "mistake": "Writing (-infinity, -3] because the inequality is >=.",
+              "again": "Solve \\(\\dfrac{x+2}{x-5}\\le0\\).",
+              "againA": "\\([-2,5)\\)",
+              "reflect": "Why does \"or equal to\" never rescue a denominator point?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "Videos",
+                  "tab": "tab-videos"
+                },
+                {
+                  "label": "Inequality Explorer app",
+                  "url": "https://inequalitynotation.netlify.app/"
+                }
+              ]
+            },
+            {
+              "id": "pr9-t3",
+              "title": "Fractions on both sides: combine first",
+              "target": "Move everything to one side, combine into one fraction, factor, then sign-chart.",
+              "cold": "Solve \\(\\dfrac{x+1}{x-4}\\le\\dfrac{x+1}{x+2}\\).",
+              "coldPlain": "Solve (x+1)/(x-4) <= (x+1)/(x+2).",
+              "note": "Show the single fraction compared to 0, which critical points come from the top and which from the bottom, a test value in each region, and your endpoint choices.",
+              "graphNote": "There's a number line on the page. I'll describe mine.",
+              "coldA": "\\((-\\infty,-2)\\cup[-1,4)\\)[[graph:S3]][[graph:SC3]][[graph:NL3]]",
+              "solution": "Subtract: 6(x + 1)/((x - 4)(x + 2)) <= 0. Critical points -2, -1, 4. Signs -, +, -, +. Want negative: (-infinity, -2) and [-1, 4), including -1 only.",
+              "mistake": "Cancelling (x + 1) from both sides, which throws away the solution x = -1.",
+              "again": "Solve \\(\\dfrac{x-3}{x+1} \\gt \\dfrac{x-3}{x-2}\\).",
+              "againA": "\\(\\dfrac{-3(x-3)}{(x+1)(x-2)} \\gt 0\\): \\((-\\infty,-1)\\cup(2,3)\\)",
+              "reflect": "Why must you keep the equal numerators instead of cancelling them?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "Videos",
+                  "tab": "tab-videos"
+                }
+              ]
+            },
+            {
+              "id": "pr9-t4",
+              "title": "Quadratic numerator: four critical points (CheckIt type)",
+              "target": "When combining gives a quadratic on top, factor it. With four critical points there are five regions to test.",
+              "cold": "Solve \\(\\dfrac{x+1}{x-1}\\ge-\\dfrac{6}{x-4}\\). Give interval notation and a number line.",
+              "coldPlain": "Solve (x+1)/(x-1) >= -6/(x-4) in interval notation and on a number line.",
+              "note": "Show the single fraction compared to 0, which critical points come from the top and which from the bottom, a test value in each region, and your endpoint choices.",
+              "graphNote": "There's a number line on the page. I'll describe mine.",
+              "coldA": "\\((-\\infty,-5]\\cup(1,2]\\cup(4,\\infty)\\)[[graph:S4]][[graph:SC4]][[graph:NL4]]",
+              "solution": "Add 6/(x - 4): ((x + 1)(x - 4) + 6(x - 1))/((x - 1)(x - 4)) = (x^2 + 3x - 10)/(...) = (x - 2)(x + 5)/((x - 1)(x - 4)). Critical -5, 1, 2, 4. Signs +, -, +, -, +. Want >= 0, include -5 and 2.",
+              "mistake": "Testing only three regions and missing one of the five.",
+              "again": "Solve \\(\\dfrac{-x+1}{x-4}\\le\\dfrac{-2x-6}{x-1}\\).",
+              "againA": "\\(\\dfrac{(x-5)(x+5)}{(x-4)(x-1)}\\le0\\): \\([-5,1)\\cup(4,5]\\)[[graph:NL4b]]",
+              "reflect": "How do you keep track of which circles are open when there are four critical points?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "Inequality Explorer app",
+                  "url": "https://inequalitynotation.netlify.app/"
+                },
+                {
+                  "label": "AI Prompts",
+                  "tab": "tab-prompts"
+                }
+              ]
+            },
+            {
+              "id": "pr9-t5",
+              "title": "A fraction compared to a number or to x",
+              "target": "Subtract the number (or expression) by writing it over the same denominator, then proceed as before.",
+              "cold": "Solve \\(\\dfrac{3x-10}{x-4} \\gt 2\\).",
+              "coldPlain": "Solve (3x - 10)/(x - 4) > 2.",
+              "coldA": "\\(\\dfrac{3x-10-2(x-4)}{x-4}=\\dfrac{x-2}{x-4} \\gt 0\\): \\((-\\infty,2)\\cup(4,\\infty)\\)",
+              "solution": "Subtract 2 = 2(x - 4)/(x - 4): (x - 2)/(x - 4) > 0. Critical 2, 4. Positive outside: (-infinity, 2) union (4, infinity).",
+              "mistake": "Multiplying both sides by (x - 4) to get 3x - 10 > 2x - 8.",
+              "again": "Solve \\(\\dfrac{4x+3}{x+2} \\gt x\\).",
+              "againA": "\\(\\dfrac{-(x-3)(x+1)}{x+2} \\gt 0\\): \\((-\\infty,-2)\\cup(-1,3)\\)",
+              "reflect": "How is this the same move as the previous two stops?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "stage": "Put it together",
+          "desc": "A practice check in the same format as the PR9 CheckIt.",
+          "stops": [
+            {
+              "id": "pr9-f1",
+              "title": "Practice check",
+              "target": "Solve a rational inequality and express the answer in interval notation and on a number line.",
+              "cold": "Solve the following inequality. Express your answer in both interval notation and graphically on a number line. \\[\\frac{3x+1}{x-1}<\\frac{2x-6}{x-4}\\]",
+              "coldPlain": "Solve (3x+1)/(x-1) < (2x-6)/(x-4). Give interval notation and a number line.",
+              "note": "Show the single fraction compared to 0, which critical points come from the top and which from the bottom, a test value in each region, and your endpoint choices.",
+              "graphNote": "There's a number line on the page. I'll describe mine.",
+              "coldA": "\\((-2,1)\\cup(4,5)\\)[[graph:SF]][[graph:NLF]]",
+              "solution": "One side: (x - 5)(x + 2)/((x - 1)(x - 4)) < 0. Critical -2, 1, 4, 5. Signs +, -, +, -, +. Want negative and strict: (-2, 1) union (4, 5).",
+              "mistake": "Distributing -(2x - 6)(x - 1) incorrectly; expand first, then subtract every term.",
+              "again": "Solve \\(\\dfrac{x+2}{x-4} \\gt \\dfrac{x+2}{x+3}\\).",
+              "againA": "\\(\\dfrac{7(x+2)}{(x-4)(x+3)} \\gt 0\\): \\((-3,-2)\\cup(4,\\infty)\\)[[graph:NLFb]]",
+              "reflect": "Looking back over PR6 to PR9, which idea ties them together for you?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "AI Prompts",
+                  "tab": "tab-prompts"
+                },
+                {
+                  "label": "Inequality Explorer app",
+                  "url": "https://inequalitynotation.netlify.app/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
