@@ -64,6 +64,12 @@
       "answer": "Read the sign chart from left to right, and include every region whose sign matches what the inequality asks for, using the correct bracket or parenthesis at each critical point (faq-6), and joining separate pieces with a union symbol. On the number line, draw a closed dot at each included endpoint and an open dot at each excluded one (including every zero of a denominator), shade the pieces in your answer, and end any piece that runs to ∞ or −∞ with an arrow.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">\\( \\dfrac{x-1}{x+3}\\ge 0 \\): the sign chart reads positive, negative, positive from left to right (faq-2). We want only the POSITIVE regions, which are left of \\( -3 \\) and right of \\( 1 \\): \\( (-\\infty,-3)\\cup[1,\\infty) \\), using an open parenthesis at \\( -3 \\) (always excluded) and a closed bracket at \\( 1 \\) (included, non-strict).</p></div>"
     },
     {
+      "id": "faq-15",
+      "category": "sticking-points",
+      "question": "What if the top and the bottom are both 0 at the same x-value?",
+      "answer": "Then the fraction is undefined there (a hole), so that value is never in the answer, even with \\( \\le \\) or \\( \\ge \\) and even though the top is 0. CheckIt does this often: one side may look like \\( \\dfrac{x-6}{x-6} \\), or the combined top may share a factor with the bottom. You can cancel the shared factor to find the signs, but keep its zero as an excluded point.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">\\( \\dfrac{2x-8}{x-4}\\ge\\dfrac{x+1}{x-1} \\) combines to \\( \\dfrac{(x-3)(x-4)}{(x-4)(x-1)}\\ge 0 \\). At \\( x=4 \\) the top and bottom are both 0, so 4 is out. Everywhere else the fraction equals \\( \\dfrac{x-3}{x-1} \\): positive left of 1, negative between 1 and 3, positive right of 3. Include 3 (top only), exclude 1 and 4: \\( (-\\infty,1)\\cup[3,4)\\cup(4,\\infty) \\).</p></div>"
+    },
+    {
       "id": "faq-11",
       "category": "connections",
       "question": "How does this connect to PR6's rational equations?",
